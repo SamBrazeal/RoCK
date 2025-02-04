@@ -7,19 +7,19 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(blue, green);
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 128, 0));
 }
 
-h1 {
+#title h1 {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 32pt;
 }
 
 h2 {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 20pt;
 }
@@ -30,5 +30,33 @@ h3 {
 
 p {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+#title p, #intro p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+}
+
+.students > li {
+    color: rgb(255, 228, 196);
+}
+
+.students {
+    font-weight: bold;
+}
+
+.CompDates {
+    font-weight: bold;
 }
