@@ -41,20 +41,32 @@ p {
     font-weight: bold;
 }
 
-#PageSelect p {
-    color: rgb(128, 128, 128);
+.PageSelect {
+    justify-content: space-around;
+    display: block;
+    display: flex;
 }
 
-#PageSelect a {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: rgb(233, 173, 9);
+.PageSelect a {
+    border-width: 20px;
+    border-color: rgb(0, 0, 0);
+    float: left;
+    color: #ffe600;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-#PageSelect a:hover {
+.PageSelect a:hover {
+    background-color: rgb(138, 43, 226);
     color: rgb(0, 178, 209);
     text-decoration: none;
+}
+
+.PageSelect a.active {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: rgb(128, 128, 128);
 }
 
 a {
@@ -65,4 +77,28 @@ a {
 a:hover {
     color: rgb(0, 255, 255);
     text-decoration: underline;
+}
+
+.robot {
+    width: 100%;
+    height: auto;
+}
+/*when screen is less then 800px change format into column*/
+@media (max-width: 800px) {
+    .PageSelect {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .PageSelect a {
+        padding: 10px;
+        text-align: left;
+    }
+}
+/*when screen is more then 500px change picture to non scale*/
+@media (min-width: 500px) {
+    .robot {
+        width: 200px;
+        height: 200px;
+    }
 }
