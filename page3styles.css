@@ -1,17 +1,49 @@
+/*list formating*/
 .students>li {
     padding-top: 20px;
     margin-left: 40px;
-    color: rgb(255, 228, 196);
+    color: rgb(0, 0, 0);
 }
 
-.students {
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 15% 75% 10%;
+    grid-template-areas:
+        "head head head"
+        "stud main inst"
+        "foot foot foot";
+}
+
+.students,
+.instructors {
+    padding: 20px;
     font-weight: bold;
 }
 
-.row {
-    display: flex;
+/*row and column formating*/
+header {
+    padding: 20px;
+    text-align: center;
+    grid-area: head;
 }
 
-.column {
-    flex: 50%;
+.students {
+    grid-area: stud;
+}
+
+.instructors {
+    grid-area: inst;
+}
+
+.main-content {
+    padding: 20px;
+    grid-area: main;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    grid-area: foot;
 }

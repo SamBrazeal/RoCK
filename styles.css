@@ -1,25 +1,27 @@
 html {
     height: 100%;
 }
+
 /*creates a blue green bottom to top gradient without the height code it looks chopy*/
 body {
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 128, 0));
+    background-image: linear-gradient(rgb(0, 0, 255), rgba(0, 0, 255, 0.300), rgba(0, 128, 0, 0.300), rgb(0, 128, 0));
 }
+
 /*text based formating*/
 #title h1 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 32pt;
 }
 
 h2 {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20pt;
     padding-top: 30px;
@@ -31,21 +33,24 @@ h3 {
 
 p {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
+
 /*handles title formating*/
 #title p,
 #intro p {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
 /*makes the page select evenly spaced*/
 .PageSelect {
     justify-content: space-around;
     display: block;
     display: flex;
 }
+
 /*makes the page select be on top left and not interfear with the title*/
 .PageSelect a {
     border-width: 20px;
@@ -68,6 +73,7 @@ p {
     background-color: rgba(0, 0, 0, 0.644);
     color: rgb(128, 128, 128);
 }
+
 /*the next two are formating for links going out of the website*/
 a {
     color: rgb(255, 255, 255);
@@ -78,6 +84,7 @@ a:hover {
     color: rgb(0, 255, 255);
     text-decoration: underline;
 }
+
 /*when the media querys are not true img is 50%*/
 .robot {
     width: 50%;

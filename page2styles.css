@@ -1,9 +1,11 @@
+/*list format*/
 .CompDates>li {
     margin-left: 40px;
     font-weight: bold;
-    color: rgb(255, 228, 196);
+    color: rgb(0, 0, 0);
 }
 
+/*compatition formating*/
 .CompDates {
     font-weight: bold;
     padding-bottom: 20px;
@@ -11,6 +13,7 @@
     border-width: 10px;
 }
 
+/*row and column format*/
 .row {
     display: flex;
 }
