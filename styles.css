@@ -19,7 +19,8 @@ body {
     font-size: 32pt;
 }
 
-h2 {
+h2,
+h4 {
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -38,21 +39,92 @@ p {
 
 /*handles title formating*/
 #title p,
-#intro p {
+#intro p,
+#roboinfo p,
+#location p {
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
+    padding-bottom: 60px;
+    width: 80%;
+    /* Limits the width of the container */
+    max-width: 800px;
+    /* Optional: max width of the container */
+    margin: 0 auto;
+    /* Centers the container horizontally */
 }
 
-/*makes the page select evenly spaced*/
+
+
+
+
+
+/* Dropdown Button */
+.dropdown {
+    background-color: #04AA6D;
+    color: white;
+    padding: 23px;
+    font-size: 17px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.drop {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
 .PageSelect {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.PageSelect a {
+    border-width: 20px;
+    border-color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    color: #1900ff;
+}
+
+/* Change color of dropdown links on hover */
+.PageSelect a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.drop:hover .PageSelect {
+    background-color: #04AA6D;
+    color: #1900ff;
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.drop:hover .dropdown {
+    background-color: #3e8e41;
+}
+
+
+
+
+/*makes the page select evenly spaced*/
+/*.PageSelect {
     justify-content: space-around;
     display: block;
     display: flex;
-}
+}*/
 
 /*makes the page select be on top left and not interfear with the title*/
-.PageSelect a {
+/*.PageSelect a {
     border-width: 20px;
     border-color: rgb(0, 0, 0);
     float: left;
@@ -61,6 +133,7 @@ p {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+
 }
 
 .PageSelect a:hover {
@@ -68,7 +141,7 @@ p {
     color: rgb(0, 178, 209);
     text-decoration: none;
 }
-
+*/
 .PageSelect a.active {
     background-color: rgba(0, 0, 0, 0.644);
     color: rgb(128, 128, 128);
@@ -76,12 +149,13 @@ p {
 
 /*the next two are formating for links going out of the website*/
 a {
-    color: rgb(255, 255, 255);
+    color: rgb(255, 5, 5);
+    font-weight: bolder;
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(0, 255, 255);
+    color: rgb(111, 0, 255);
     text-decoration: underline;
 }
 
@@ -89,6 +163,14 @@ a:hover {
 .robot {
     width: 50%;
     height: 50%;
+}
+
+.RoCK {
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers */
+    align-items: center;
+    /* Vertically centers */
 }
 
 /*when screen is less then 800px change format into column*/

@@ -8,9 +8,6 @@
 /*compatition formating*/
 .CompDates {
     font-weight: bold;
-    padding-bottom: 20px;
-    border-style: solid;
-    border-width: 10px;
 }
 
 /*row and column format*/
@@ -20,4 +17,12 @@
 
 .column {
     flex: 50%;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.robot {
+    height: 500px;
+    width: 400px;
 }
