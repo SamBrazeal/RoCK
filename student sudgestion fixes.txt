@@ -1,0 +1,13 @@
+Brooklyn's suggestions:
+Change the font color of the navigation menu drop down from blue to something like black so that it is slightly easier to read on the green background.
+changed the dropdown menu black as requested
+
+Change the placeholder button to just be the Olympic College Website Link.
+changed the button to actualy say its for a link to OHS website
+
+Ryan's suggestions:
+On your styles.css I noticed that the bottom What Do We Do section on the bottom and how to join were not put in your declaration, so they are not receiving the same formatting.     #title p, #intro p, #roboinfo p, #location p {}.
+got rid of the unesisary section
+
+For the members page, the space between Students and Instructors feels a little large. I also preferred the design choice you made for the student's section adding space and indenting the names compared to the title.
+fixed the space issue

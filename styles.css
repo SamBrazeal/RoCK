@@ -12,11 +12,12 @@ body {
 }
 
 /*text based formating*/
-#title h1 {
+#title h1{
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 32pt;
+    font-family: "Audiowide", sans-serif;
 }
 
 h2,
@@ -39,7 +40,6 @@ p {
 
 /*handles title formating*/
 #title p,
-#intro p,
 #roboinfo p,
 #location p {
     text-align: center;
@@ -54,14 +54,9 @@ p {
     /* Centers the container horizontally */
 }
 
-
-
-
-
-
 /* Dropdown Button */
 .dropdown {
-    background-color: #04AA6D;
+    background-color: #000000;
     color: white;
     padding: 23px;
     font-size: 17px;
@@ -103,7 +98,7 @@ p {
 
 /* Show the dropdown menu on hover */
 .drop:hover .PageSelect {
-    background-color: #04AA6D;
+    background-color: #000000;
     color: #1900ff;
     display: block;
 }
@@ -114,7 +109,7 @@ p {
 }
 
 .PageSelect a.active {
-    background-color: rgba(0, 0, 0, 0.644);
+    background-color: rgba(112, 112, 112, 0.644);
     color: rgb(128, 128, 128);
 }
 
