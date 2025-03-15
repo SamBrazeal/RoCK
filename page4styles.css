@@ -1,12 +1,12 @@
 /*list format*/
-.CompDates>li {
+.eventdates>li {
     padding-top: 20px;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
 
 /*compatition formating*/
-.CompDates {
+.eventdates {
     font-weight: bold;
 }
 

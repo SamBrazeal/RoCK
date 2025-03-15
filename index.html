@@ -7,16 +7,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROCK(Robotics of central kitsap)</title>
-<!--not working
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
--->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
     <link rel="page2" href="page2.html">
     <link rel="page3" href="page3.html">
+    <link rel="page4" href="page4.html">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/gear?f=classic&s=solid">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
 
@@ -24,20 +24,21 @@
     <div id="top">
         <div class="drop">
             <button class="dropdown">Page Selection</button>
-            <div class="PageSelect">
+            <div class="PageSelect bordersection">
                 <a class="active" href="index.html">Intro</a>
-                <a href="page2.html">Events</a>
+                <a href="page2.html">Competitions</a>
                 <a href="page3.html">Members</a>
+                <a href="page4.html">Events</a>
             </div>
         </div>
     </div>
     <main class="container">
         <!--Title and short discrption of ROCk-->
-        <section id="title">
+        <section id="title" class="bordersection">
             <div class="RoCK">
                 <img src="RoCK.jpg" class="RoCK">
             </div>
-            <h1>RoCK</h1>
+            <h1>R<i class="fa-solid fa-gear"></i>CK</h1>
             <p>
                 RoCK stands for Robotics of Central Kitsap and is the robotics club for the Central
                 Kitsap School District. We have members from three of the high schools such as
@@ -46,16 +47,17 @@
             </p>
         </section>
 
-        <p><a href="#olympic">link to get to the Olympic High School Link for more info about the school</a></p>
+        <p><a href="#olympic">Jump to How to Join</a></p>
 
         <h3>
             <!--I will change this image later to one that better suits ROCK probably a picture of the main robot they are using-->
             <img src="robot.jpg" class="robot">
         </h3>
-        <h4>
-            What is Robotics
-        </h4>
-        <section id="roboinfo">
+        <section id="roboinfo" class="bordersection">
+            <h4>
+                What is Robotics
+            </h4>
+
             <p>
                 Robotics is a multidisciplinary field that involves the design,
                 construction, operation, and use of robots capable
@@ -70,7 +72,7 @@
                 and adaptable machines.
             </p>
         </section>
-        <section id="location">
+        <section id="location" class="bordersection">
             <h4>
                 Where is RoCK
             </h4>
@@ -81,7 +83,7 @@
                 for our robot. we come together every Thursday from &tilde;4:30 to &tilde;6:00
             </p>
         </section>
-        <section>
+        <section class="bordersection">
             <h4>
                 What Do We Do
             </h4>
@@ -94,21 +96,22 @@
                 are mostly hosted by FIRST robotics but we also will do a localized competition afterwards.
             </p>
         </section>
-        <section>
+        <section class="bordersection">
             <h4>
-                how to join
+                How to Join
             </h4>
             <p>
-                If you wish to join you just need to show up at the stated times we have all the necessary stuff
-                here.
+                If you wish to join you just need to show up at the times stated in "Where is RoCK" 
+                as for what to bring we have all the necessary stuff here at RoCK we hope to see you here
+                for information about the school here is the website
+                <a id="olympic" href="https://olympic.ckschools.org/" target="_blank">Olympic High School Website</a>.
             </p>
         </section>
     </main>
-    <p><a href="#top">Back to Top</a></p>
+    
 </body>
 <footer>
-    <!--Website links-->
-    <a id="olympic" href="https://olympic.ckschools.org/" target="_blank">Olympic High School Website</a>
+    <p><a href="#top">Back to Top</a></p>
 </footer>
 
 </html>

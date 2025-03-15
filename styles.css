@@ -12,7 +12,7 @@ body {
 }
 
 /*text based formating*/
-#title h1{
+#title h1 {
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -26,7 +26,6 @@ h4 {
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20pt;
-    padding-top: 30px;
 }
 
 h3 {
@@ -45,7 +44,7 @@ p {
     text-align: center;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     width: 80%;
     /* Limits the width of the container */
     max-width: 800px;
@@ -54,9 +53,21 @@ p {
     /* Centers the container horizontally */
 }
 
+.bordersection{
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    margin-bottom: 60px;
+}
+
 /* Dropdown Button */
 .dropdown {
-    background-color: #000000;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: #000000af;
+    border: 5px solid rgba(0, 0, 0, 0.39);
+    border-radius: 50px;
     color: white;
     padding: 23px;
     font-size: 17px;
@@ -72,7 +83,7 @@ p {
 /* Dropdown Content (Hidden by Default) */
 .PageSelect {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -94,6 +105,7 @@ p {
 /* Change color of dropdown links on hover */
 .PageSelect a:hover {
     background-color: #ddd;
+    border-radius: 50px;
 }
 
 /* Show the dropdown menu on hover */
@@ -110,6 +122,7 @@ p {
 
 .PageSelect a.active {
     background-color: rgba(112, 112, 112, 0.644);
+    border-radius: 50px;
     color: rgb(128, 128, 128);
 }
 
