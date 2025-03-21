@@ -1,0 +1,35 @@
+/*list format*/
+.CompDates>li {
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+/*compatition formating*/
+.CompDates {
+    font-weight: bold;
+}
+
+/*row and column format*/
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding-bottom: 20px;
+}
+
+.image :hover {
+    height: 500px;
+    width: 400px;
+}
+
+.competition-img {
+    height: 100px;
+    width: 75px;
+}
+
+.image {
+    margin-left: 50px;
+}

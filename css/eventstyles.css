@@ -1,0 +1,26 @@
+/*list format*/
+.eventdates>li {
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+/*compatition formating*/
+.eventdates {
+    font-weight: bold;
+}
+
+/*row and column format*/
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding-bottom: 20px;
+}
+
+.robot {
+    height: 500px;
+    width: 400px;
+}

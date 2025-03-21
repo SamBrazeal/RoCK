@@ -1,0 +1,53 @@
+/*list formating*/
+.students>li {
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.instructors>li {
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    height: 100%;
+    flex: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "stud inst"
+}
+
+.students,
+.instructors {
+    padding: 20px;
+    font-weight: bold;
+}
+
+/*row and column formating*/
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.students {
+    grid-area: stud;
+}
+
+.instructors {
+    grid-area: inst;
+}
+
+.members {
+    height: 500px;
+    width: 500px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
